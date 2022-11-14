@@ -1,4 +1,4 @@
-.myinput , .myinput:focus{
+.myinput{
     border: 3px solid var(#00AC7C);
 }
 
