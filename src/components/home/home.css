@@ -1,0 +1,89 @@
+#homep{
+ font-family: Arial, Helvetica, sans-serif;
+
+ max-width: 80%;
+ margin: auto;
+
+ margin-top: 25px;
+ 
+}
+
+#cartoons{
+    width: 500px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-bottom: 3%;
+    margin-top: 2%;  
+}
+
+
+@media screen and (max-width:699px) {
+
+    #cartoons{
+        width: 250px !important;
+        margin-top: 20%;
+        
+        
+    }
+    
+}
+
+@media screen and (min-width:2000px) {
+
+    #cartoons{
+        max-width: 700px !important;
+    }
+    
+    
+}
+
+#btn{
+   font-weight: bold;
+   font-size: large;
+    text-align: justify;
+    align-items: center;
+    display: block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    max-width: 50%;
+    background-color: #00AC7C;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 10px;
+    margin: auto;
+ 
+}
+
+#btn:hover{
+    box-shadow: 20px 20px 60px grey;
+    border: 2px solid var(--primary-green);
+    background-color: white;
+    color: #00AC7C;
+    border-radius: 15px;
+}
+
+#htx{
+    text-align: center;
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    font-size: normal;
+    font-style: tahoma;
+    display: block;
+    margin-bottom: 20px;
+  
+}
+#httx{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: auto;
+}
+
+:root{
+    --primary-green: #00AC7C;
+}
